@@ -1,0 +1,29 @@
+{
+  "name": "unity/cache",
+  "description": "Description soon. We're working on it.",
+  "type": "library",
+  "keywords": ["cache", "unity-framework", "unity", "php", "psr-3"],
+  "homepage": "https://github.com/unity-framework/Config",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eleandro Duzentos",
+      "email": "eleandro@inbox.ru",
+      "homepage": "https://e200.github.io",
+      "role": "developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "unity/support": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Unity\\Component\\Cache\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2",
+    "mikey179/vfsStream": "^1.6"
+  }
+}
